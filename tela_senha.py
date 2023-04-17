@@ -31,8 +31,7 @@ class TelaPython():
         ]
         # janela
         self.janela = sg.Window('Gerador de senhas').layout(layout)
-        # exportar informações
-        self.button, self.values = self.janela.Read()
+        
     
     def iniciar(self):
         while True:
